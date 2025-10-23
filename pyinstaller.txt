@@ -1,0 +1,7 @@
+python -m pip install pyinstaller
+
+
+pyinstaller --onefile --add-data "tightvnc-2.8.85-gpl-setup-64bit.msi;." --add-data "vnc.reg;." vnc_ping.py
+
+
+shell:startup
